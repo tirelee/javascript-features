@@ -1,6 +1,5 @@
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
-const value = ( 5 < 7 ) ? "True" : "False" ;
-const lastElement = arr => arr[arr.length - 1];
-console.log(1 +  "2" + "2");
-const executableName = getExecutableName(channel, appName);
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+console.log(1 +  -"1" + "2");
+const merge = (a, b) => [...a, ...b];
+const result = await makeHttpRequest(url);
+var arr2 = arr1.reverse();
+const appName = getAppName(channel);
