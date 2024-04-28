@@ -1,2 +1,2 @@
-const lastElement = arr => arr[arr.length - 1];
-const flattenedArray = arr => [].concat(...arr);
+var arr2 = arr1.reverse();
+var pattern = {};
