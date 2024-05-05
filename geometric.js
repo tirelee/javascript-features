@@ -1,1 +1,1 @@
-const uniqueArray = arr => [...new Set(arr)];
+var DELIM_SIZE = 4;
