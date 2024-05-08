@@ -1,3 +1,2 @@
-[foo, bar] = [bar, foo];
-const fullName = name || 'buddy';
-const updated = numbers.filter(element => element > 6);
+const removeDuplicates = (arr) => [...new Set(arr)];
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
