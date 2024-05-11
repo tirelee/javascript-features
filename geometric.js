@@ -1,3 +1,3 @@
-const merge = [...new Set([...a, ...b])];
-var DELIM_SIZE = 4;
-var arr3 = "jones".split('');
+const randomString = () => Math.random().toString(36).slice(2);
+const randomBoolean = () => Math.random() >= 0.5;
+const toggleBool = () => (bool = !bool);
