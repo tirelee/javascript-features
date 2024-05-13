@@ -1,2 +1,3 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const uniqueArr = (arr) => [...new Set(arr)];
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const allResults = await Promise.all(items.map(async (item) => {}));
