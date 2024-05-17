@@ -1,3 +1,3 @@
-const randomString = () => Math.random().toString(36).slice(2);
-const randomBoolean = () => Math.random() >= 0.5;
-const toggleBool = () => (bool = !bool);
+console.log(1 +  -"1" + "2");
+const results = await Promise.all(resultingPromises);
+const isWeekday = (date) => date.getDay() % 6 !== 0;
