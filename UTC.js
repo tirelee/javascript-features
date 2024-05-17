@@ -1,2 +1,3 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const allResults = await Promise.all(items.map(async (item) => {}));
+const lastElement = arr => arr[arr.length - 1];
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
