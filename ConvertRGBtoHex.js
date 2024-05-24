@@ -1,1 +1,1 @@
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+console.log( "A" - "B" + 2);
