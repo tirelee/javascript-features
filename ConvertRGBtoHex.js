@@ -1,2 +1,2 @@
-const merge = (a, b) => a.concat(b);
-console.log(false == '0');
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
