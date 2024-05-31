@@ -1,2 +1,2 @@
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
-var arr3 = "jones".split('');
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const isEmptyArray = arr => !arr.length;
