@@ -1,3 +1,1 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
