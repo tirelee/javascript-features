@@ -1,2 +1,2 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const isArray = (arr) => Array.isArray(arr);
+var arr2 = arr1.reverse();
