@@ -1,2 +1,3 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-const merge = [...new Set([...a, ...b])];
+console.log(1 +  "2" + "2");
+const results = await Promise.all(resultingPromises);
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
