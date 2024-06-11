@@ -1,1 +1,2 @@
-const reversedString = str => str.split('').reverse().join('');
+console.log("1 || 2 = "+(1 || 2));
+const getRandomBoolean = () => Math.random() >= 0.5;
