@@ -1,2 +1,2 @@
-const isArray = (arr) => Array.isArray(arr);
-var arr2 = arr1.reverse();
+const allResults = await Promise.all(items.map(async (item) => {}));
+var arr3 = "jones".split('');
