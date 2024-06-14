@@ -1,1 +1,2 @@
-var arr3 = "jones".split('');
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
