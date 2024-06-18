@@ -1,3 +1,2 @@
-console.log(1 +  "2" + "2");
-const results = await Promise.all(resultingPromises);
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const randomString = () => Math.random().toString(36).slice(2);
+const allResults = await Promise.all(items.map(async (item) => {}));
