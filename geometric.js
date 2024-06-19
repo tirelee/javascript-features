@@ -1,3 +1,2 @@
-const appName = getAppName(channel);
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+console.log(1 +  "2" + "2");
+console.log( "A" - "B" + 2);
