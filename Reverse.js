@@ -1,2 +1,2 @@
-const randomString = () => Math.random().toString(36).slice(2);
-const allResults = await Promise.all(items.map(async (item) => {}));
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+const merge = (a, b) => [...a, ...b];
