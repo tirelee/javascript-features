@@ -1,1 +1,1 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const isEmptyObject = obj => Object.keys(obj).length === 0;
