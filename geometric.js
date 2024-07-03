@@ -1,2 +1,3 @@
-console.log("0 || 1 = "+(0 || 1));
-const isEven = (num) => num % 2 === 0;
+const merge = Object.assign({}, obj1, obj2);
+var pattern = {};
+const isEmptyObject = obj => Object.keys(obj).length === 0;
