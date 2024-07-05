@@ -1,3 +1,3 @@
-const merge = Object.assign({}, obj1, obj2);
-var pattern = {};
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+console.log("1 && 2 = "+(1 && 2));
+var arr1 = "john".split('');
+const fullName = name || 'buddy';
