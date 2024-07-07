@@ -1,2 +1,3 @@
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+var DELIM_SIZE = 4;
+const toggleBool = () => (bool = !bool);
