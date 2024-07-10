@@ -1,3 +1,3 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-console.log(typeof typeof 1);
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const uniqueArr = (arr) => [...new Set(arr)];
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const uniqueArray = arr => [...new Set(arr)];
