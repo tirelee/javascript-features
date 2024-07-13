@@ -1,3 +1,3 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-console.log(typeof typeof 1);
+const merge = [...new Set([...a, ...b])];
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const reversedString = str => str.split('').reverse().join('');
