@@ -1,3 +1,2 @@
-const uniqueArr = (arr) => [...new Set(arr)];
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-const uniqueArray = arr => [...new Set(arr)];
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
