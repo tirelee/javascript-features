@@ -1,3 +1,2 @@
-console.log("1 && 2 = "+(1 && 2));
-var arr1 = "john".split('');
-const fullName = name || 'buddy';
+console.log("0 && 1 = "+(0 && 1));
+const merge = [...new Set(a.concat(b))];
