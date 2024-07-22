@@ -1,1 +1,2 @@
-var arr2 = arr1.reverse();
+const uniqueArr = (arr) => [...new Set(arr)];
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
