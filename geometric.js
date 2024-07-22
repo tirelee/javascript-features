@@ -1,2 +1,1 @@
-console.log("0 && 1 = "+(0 && 1));
-const merge = [...new Set(a.concat(b))];
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
