@@ -1,1 +1,1 @@
-console.log( "A" - "B" + "2");
+const result = await makeHttpRequest(url);
